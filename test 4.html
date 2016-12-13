@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+        #ab {
+            position: fixed;
+            bottom: 0;
+            left:0;
+        }
+        #bb {
+            position: fixed;
+            bottom: 0;
+            right:0;
+        }
+        #cb {
+            position: fixed;
+            bottom: 0;
+            left:20%;
+        }
+        #db {
+            position: fixed;
+            bottom: 0;
+            left:45%;
+        }
+        #eb {
+            position: fixed;
+            bottom: 0;
+            left:70%;
+        }
+
+    </style>
+    <script type="text/javascript">
+        function showT(image)
+        {
+            document.getElementById( 'ima' ).setAttribute('src',image )
+        }
+
+    </script>
+
+</head>
+<body>
+
+
+    <a href="http://www.facebook.com"><img id="ima" src="facebook-logo_318-76797.jpg" width="400" height="400" /></a>
+
+
+
+<a href="http://www.facebook.com" onmouseover="showT(src='facebook-logo_318-76797.jpg')"><img class="facebook" src="facebook-logo_318-76797.jpg"  width="auto" height="auto" id="ab" /></a>
+<a href="http://www.instagram.com" onmouseover="showT(src='instagram-logo_318-84939.jpg')" class="zoom"><img class="insta" src="instagram-logo_318-84939.jpg" width="auto" height="auto" id="bb"/></a>
+<a href="http://www.twitter.com" onmouseover="showT(src='twitter-logo-button_318-85053.jpg')"><img class="twitter" src="twitter-logo-button_318-85053.jpg" width="auto" height="auto" id="cb"/></a>
+<a href="http://www.yahoo.com" onmouseover="showT(src='message-closed-envelope_318-86118.jpg')"><img class="yahoo" src="message-closed-envelope_318-86118.jpg" width="auto" height="auto" id="db"/></a>
+<a href="http://www.google.com/chrome" onmouseover="showT(src='world_318-68102.jpg')"><img class="google" src="world_318-68102.jpg" width="auto" height="auto" id="eb"/></a>
+</body>
+</html>
